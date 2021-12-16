@@ -1,0 +1,13 @@
+def fib_memoization(a):
+  memory = {}
+  if n in memory:
+    return memory[a]
+  if a==0:
+    return 0
+  if a == 1 or a==2:
+    return 1
+  else:           
+    number =  fib_memoization(a-1) + fib_memoization(a-2)
+    memory[a] = number
+  return number
+fib_memoization(35)
