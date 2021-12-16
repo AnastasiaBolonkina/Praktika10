@@ -1,10 +1,8 @@
-def fib(a):
-  if a==0:
-    return 0
-  if a==1 or a==2:
-    return 1
-  else:
-    return fib(a-1)+fib(a-2)
-print(fib(0))
-print(fib(2))
-print(fib(4))
+l = str(input('Строка: '))
+def is_palindrome(ы):
+    s = s.lower()
+    s = s.replace(' ','')
+ если len(s) <= 1:
+ вернуть значение True
+ возврат s[0] == s[-1] и is_palindrome(s[1:-1])
+печать (is_palindrome (л))
